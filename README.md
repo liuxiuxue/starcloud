@@ -19,9 +19,9 @@
 
    其中关于SpringCloudAlibaba中的版本依赖，请参考官网，务必一致，本项目采取的版本如下
 
-   ![image-20220412105820795](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220412105820795.png)
+   ![image-20220412105820795](https://github.com/liuxiuxue/starcloud/blob/master/common-service/files/image-20220412105820795.png)
 
-   <img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220412105844036.png" alt="image-20220412105844036"  />
+   <img src="https://github.com/liuxiuxue/starcloud/blob/master/common-service/files/image-20220412105844036.png" alt="image-20220412105844036"  />
 
 ### 2.各服务技术简介
 
@@ -91,8 +91,8 @@
 
 成功启动后的测试步骤   1.获取token   2.请求其他服务带着token
 
-![image-20220412114422945](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220412114422945.png)
+![image-20220412114422945](https://github.com/liuxiuxue/starcloud/blob/master/common-service/files/image-20220412114422945.png)
 
 
 
-![image-20220412114527454](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220412114527454.png)
+![image-20220412114527454](https://github.com/liuxiuxue/starcloud/blob/master/common-service/files/image-20220412114527454.png)
