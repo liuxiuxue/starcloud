@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/starcloud?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true        #开启动态路由
+          lower-case-service-id: true
+      routes:
+        - id: resoure-service   #路由的ID
+          uri: lb://resource-service     #匹配后路由地址 注册中心的服务名
+          predicates:                          # 断言，路径相匹配的进行路由
+            - Path=/resource/**
+        #    - Header=Authorization,\d          #值必须是正则表达式
+        - id: oauth-service   #路由的ID
+          uri: lb://oauth-service     #匹配后路由地址
+          predicates:           # 断言,会将path后的路径全部追加到uri后面，如果需要截取路径，借鉴stripPrefix
+            - Path=/oauth/** 
+
+        - id: activity-service   #路由的ID
+          uri: lb://activity-service     #匹配后路由地址
+          predicates:           # 断言,会将path后的路径全部追加到uri后面，如果需要截取路径，借鉴stripPrefix
+            - Path=/activity/** 

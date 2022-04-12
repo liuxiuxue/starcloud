@@ -1,0 +1,23 @@
+#  Spring Boot 配置文件的加载顺序，
+#  依次为 bootstrap.properties > bootstrap.yaml > application.properties > application.yaml
+spring:
+  application:
+    name: resource-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8858  #指定Nacos服务端地址
+        username: admin
+        password: nacospwd
+      config:
+        server-addr: 127.0.0.1:8858
+        file-extension: yaml
+        username: admin
+        password: nacospwd
+        namespace: d20f986b-d78e-4b8f-abcd-86c4860c0d0c
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+server:
+  port: 10006
+

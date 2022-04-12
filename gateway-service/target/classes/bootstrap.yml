@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8858  #指定Nacos服务端地址
+        username: admin
+        password: nacospwd
+      config:
+        server-addr: 127.0.0.1:8858
+        file-extension: yaml
+        username: admin
+        password: nacospwd
+        namespace: d20f986b-d78e-4b8f-abcd-86c4860c0d0c
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+#        限流后的处理 返回自定义json或者是重定向
+      scg:
+        fallback:
+          mode: response
+          response-status: 200
+          response-body: '{"code": 200,"message": "请求失败，稍后重试！"}'
+      filter:
+        enabled: false
+server:
+  port: 10010
