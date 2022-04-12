@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-service/files" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.2575" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\starCloud\common-service\files" />
       <recent name="E:\IdeaProjects\starCloud\common-service" />
       <recent name="E:\IdeaProjects\starCloud\common-service\src\main" />
       <recent name="E:\IdeaProjects\starCloud\activity-service\src\main\java\com\star\activity" />
       <recent name="E:\IdeaProjects\starCloud\activity-service\src\main\resources" />
-      <recent name="E:\IdeaProjects\starCloud\resoure-service\src\main\java\com\star\resource\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -198,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649310598761</updated>
-      <workItem from="1649310600028" duration="70442000" />
+      <workItem from="1649310600028" duration="71005000" />
     </task>
     <servers />
   </component>
