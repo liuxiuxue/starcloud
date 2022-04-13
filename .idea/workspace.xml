@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="377fc182-39e3-4bb4-aae2-d1cc3caf2671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/mapper/ActivityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/openfeign/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/openfeign/ResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig$UserResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig$UserResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/openfeign/ResourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/openfeign/ResourceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/ResourceFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/ResourceFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/star/common/entity/ResourceFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/star/common/entity/ResourceFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/star/gateway/config/CustomGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/star/gateway/config/CustomGlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig$UserResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig$UserResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/files/boot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/files/activity-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/files/activity-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/files/starcloud.sql" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/files/starcloud.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649310598761</updated>
-      <workItem from="1649310600028" duration="84842000" />
+      <workItem from="1649310600028" duration="85659000" />
     </task>
     <servers />
   </component>

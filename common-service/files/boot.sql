@@ -5,36 +5,48 @@
  Source Server Type    : MySQL
  Source Server Version : 50733
  Source Host           : localhost:3306
- Source Schema         : starcloud
+ Source Schema         : boot
 
  Target Server Type    : MySQL
  Target Server Version : 50733
  File Encoding         : 65001
 
- Date: 13/04/2022 15:45:40
+ Date: 13/04/2022 15:46:38
 */
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for resource_file
+-- Table structure for activity
 -- ----------------------------
-DROP TABLE IF EXISTS `resource_file`;
-CREATE TABLE `resource_file`  (
-  `id` bigint(10) UNSIGNED NOT NULL,
-  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `module` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `object_id` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `create_time` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
-  `enabled` tinyint(1) UNSIGNED NOT NULL DEFAULT 1,
+DROP TABLE IF EXISTS `activity`;
+CREATE TABLE `activity`  (
+  `id` bigint(20) NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `user_id` bigint(20) NULL DEFAULT NULL,
+  `create_time` datetime(0) NULL DEFAULT NULL,
+  `enabled` tinyint(1) UNSIGNED NULL DEFAULT 1,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Records of resource_file
+-- Records of activity
 -- ----------------------------
 
+-- ----------------------------
+-- Table structure for person
+-- ----------------------------
+
+
+-- ----------------------------
+-- Table structure for resource1
+-- ----------------------------
+
+
+-- ----------------------------
+-- Records of resource1
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for undo_log
