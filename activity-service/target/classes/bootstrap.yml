@@ -20,3 +20,14 @@ spring:
         dashboard: localhost:8080
 server:
   port: 10004
+seata:
+  tx-service-group: my_test_tx_group
+#  registry:
+#    nacos:
+#      username: admin
+#      password: nacospwd
+#
+#  config:
+#    nacos:
+#      username: admin
+#      password: nacospwd

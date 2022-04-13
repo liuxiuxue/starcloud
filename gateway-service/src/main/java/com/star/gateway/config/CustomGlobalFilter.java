@@ -30,7 +30,7 @@ public class CustomGlobalFilter implements GlobalFilter , Ordered {
         String url = request.getURI().getPath();
         String method = request.getMethodValue();
 
-        // 加载白名单信息，如果在白名单中，则放行
+        // 加载白名单信息，如果在白名单中，则放行 ,子服务模块也得相应放行这种白名单接口
         Map<String,String> whiteList = new HashMap<>();
         whiteList.put("/oauth/token","POST");
         if(whiteList.get(url) != null && whiteList.get(url).equals(method)){

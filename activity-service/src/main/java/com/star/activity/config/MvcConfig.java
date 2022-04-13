@@ -1,11 +1,14 @@
 package com.star.activity.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.star.common.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.MethodParameter;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
@@ -16,6 +19,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
@@ -34,6 +38,14 @@ public class MvcConfig implements WebMvcConfigurer {
         resolvers.add(userResolver());
     }
 
+    @Override
+    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+        WebMvcConfigurer.super.configureMessageConverters(converters);
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
+        converters.add(0, new MappingJackson2HttpMessageConverter(mapper));
+    }
+
     @Bean
     UserResolver userResolver() {
         return new UserResolver();
@@ -45,6 +57,8 @@ public class MvcConfig implements WebMvcConfigurer {
         public boolean supportsParameter(MethodParameter parameter) {
             return parameter.getParameterType().isAssignableFrom(User.class);
         }
+
+
 
         @Override
         public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer, NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {

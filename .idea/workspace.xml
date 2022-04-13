@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="377fc182-39e3-4bb4-aae2-d1cc3caf2671" name="Changes" comment="" />
+    <list default="true" id="377fc182-39e3-4bb4-aae2-d1cc3caf2671" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/mapper/ActivityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/openfeign/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/openfeign/ResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig$UserResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig$UserResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/openfeign/ResourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/openfeign/ResourceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/ResourceFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/star/common/entity/ResourceFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/star/common/entity/ResourceFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/target/classes/com/star/common/entity/ResourceFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/star/gateway/config/CustomGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/star/gateway/config/CustomGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig$UserResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig$UserResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/MvcConfig.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +40,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -38,6 +68,9 @@
     </option>
   </component>
   <component name="ProjectId" id="27SPd5aIly7OmnbHoAKviX4dM7H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -182,10 +215,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GateWayServiceApp" />
         <item itemvalue="Spring Boot.ActivityServiceApp" />
-        <item itemvalue="Spring Boot.AuthServiceApp" />
         <item itemvalue="Spring Boot.ResourceServiceApp" />
+        <item itemvalue="Spring Boot.AuthServiceApp" />
+        <item itemvalue="Spring Boot.GateWayServiceApp" />
         <item itemvalue="JUnit.AppTest.test1" />
       </list>
     </recent_temporary>
@@ -198,12 +231,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649310598761</updated>
-      <workItem from="1649310600028" duration="71005000" />
+      <workItem from="1649310600028" duration="84842000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageNotReadableException.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
