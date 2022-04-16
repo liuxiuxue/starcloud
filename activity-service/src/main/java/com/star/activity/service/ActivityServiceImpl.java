@@ -25,7 +25,7 @@ public class ActivityServiceImpl extends ServiceImpl<ActivityMapper, Activity> i
     @GlobalTransactional
     public boolean saveActivity(Activity activity, ResourceFile resourceFile, User user) {
         resourceService.save(resourceFile);
-        int i = 1/0;
+//        int i = 1/0;
         activity.setUserId(user.getId());
         return baseMapper.insert(activity) > 0;
     }

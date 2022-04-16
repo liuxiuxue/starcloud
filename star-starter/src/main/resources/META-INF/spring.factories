@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.star.starter.redis.StarRedisTemplateConfig,\
+com.star.starter.feign.StarFeignConfig

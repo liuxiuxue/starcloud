@@ -1,0 +1,10 @@
+com\star\activity\ActivityServiceApp.class
+com\star\activity\service\ActivityServiceImpl.class
+com\star\activity\mapper\ActivityMapper.class
+com\star\activity\config\JwtConfig.class
+com\star\activity\config\MvcConfig.class
+com\star\activity\controller\IndexController.class
+com\star\activity\openfeign\ResourceService.class
+com\star\activity\service\ActivityService.class
+com\star\activity\config\MvcConfig$UserResolver.class
+com\star\activity\config\ResourceServerConfig.class

@@ -1,0 +1,9 @@
+com\star\resource\config\ResourceServerConfig.class
+com\star\resource\config\JwtConfig.class
+com\star\resource\config\MvcConfig.class
+com\star\resource\controller\IndexController.class
+com\star\resource\config\MvcConfig$UserResolver.class
+com\star\resource\service\ResourceFileService.class
+com\star\resource\mapper\ResourceFileMapper.class
+com\star\resource\service\ResourceFileServiceImpl.class
+com\star\resource\ResourceServiceApp.class

@@ -12,6 +12,7 @@
         <module name="activity-service" />
         <module name="oauth-service" />
         <module name="gateway-service" />
+        <module name="star-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

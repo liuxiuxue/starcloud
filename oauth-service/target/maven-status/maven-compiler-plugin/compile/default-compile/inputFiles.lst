@@ -1,0 +1,15 @@
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\AuthorizationServerConfig.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\JwtConfig.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\mapper\UserMapper.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\entity\Sex.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\entity\Authority.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\phone\PhonePasswordAuthenticationProvider.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\AuthServiceApp.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\SecurityConfig.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\phone\PhonePasswordToken.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\config\phone\PhonePasswordGranter.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\mapper\AuthorityMapper.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\service\UserService.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\controller\IndexController.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\impl\UserServiceImpl.java
+E:\IdeaProjects\starCloud\oauth-service\src\main\java\com\star\auth\entity\User.java

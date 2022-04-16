@@ -13,6 +13,7 @@
         <module>gateway-service</module>
         <module>oauth-service</module>
         <module>activity-service</module>
+        <module>star-starter</module>
     </modules>
 
 

@@ -1,7 +1,6 @@
 package com.star.auth.config;
 
 import cn.hutool.core.codec.Base64;
-import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.SecureUtil;
 import com.star.auth.entity.User;
 import com.star.auth.mapper.UserMapper;
@@ -25,8 +24,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-
-import static cn.hutool.crypto.asymmetric.KeyType.PublicKey;
 
 /**
  * @author: liuxiuxue
@@ -53,7 +50,7 @@ public class JwtConfig {
         JwtAccessTokenConverter jwtAccessTokenConverter = new JwtAccessTokenEnhancer();
 //        jwtAccessTokenConverter.setSigningKey(GJJ);
         PublicKey publicKey = SecureUtil.generatePublicKey("RSA", Base64.decode((String) (redisTemplate.opsForValue().get("publicKey"))));
-        PrivateKey privateKey = SecureUtil.generatePrivateKey("RSA",Base64.decode((String) (redisTemplate.opsForValue().get("privateKey"))));
+        PrivateKey privateKey = SecureUtil.generatePrivateKey("RSA", Base64.decode((String) (redisTemplate.opsForValue().get("privateKey"))));
         KeyPair keyPair = new KeyPair(publicKey, privateKey);
         jwtAccessTokenConverter.setKeyPair(keyPair);
         return jwtAccessTokenConverter;
@@ -75,15 +72,18 @@ public class JwtConfig {
                 Long userId = user.getId();
                 com.star.common.entity.User userInfo = new com.star.common.entity.User();
                 extendInformation.put("user_id", userId);
-                if (userId != null && !redisTemplate.hasKey("user:" + userId)) {
-                    User userDetail = userMapper.selectById(userId);
-                    BeanUtils.copyProperties(userDetail, userInfo);
-                    List<String> collect = user.getAuthorities().stream().map(GrantedAuthority::getAuthority)
-                            .collect(Collectors.toList());
-                    userInfo.setAuthorities(collect);
+                if (userId != null) {
+                    if (!redisTemplate.hasKey("user:" + userId)) {
+                        User userDetail = userMapper.selectById(userId);
+                        BeanUtils.copyProperties(userDetail, userInfo);
+                        List<String> collect = user.getAuthorities().stream().map(GrantedAuthority::getAuthority)
+                                .collect(Collectors.toList());
+                        userInfo.setAuthorities(collect);
+                    }
                     redisTemplate.opsForValue().set("user:" + userId, userInfo, 1L, TimeUnit.DAYS);
                     redisTemplate.opsForValue().set("user:" + user.getUsername(), userInfo, 1L, TimeUnit.DAYS);
                 }
+
 
                 //添加到additionalInformation
                 ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(extendInformation);

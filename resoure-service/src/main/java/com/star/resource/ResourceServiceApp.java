@@ -1,5 +1,7 @@
 package com.star.resource;
 
+import com.star.starter.feign.EnabledStarFeignInterceptor;
+import com.star.starter.redis.EnabledStarRedisTemplate;
 import feign.Logger;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +17,8 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
+@EnabledStarRedisTemplate
+@EnabledStarFeignInterceptor
 public class ResourceServiceApp {
     public static void main(String[] args) {
         SpringApplication.run(ResourceServiceApp.class, args);

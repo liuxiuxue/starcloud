@@ -1,0 +1,7 @@
+com\star\starter\feign\OpenStarFeign.class
+com\star\starter\feign\EnabledStarFeignInterceptor.class
+com\star\starter\feign\StarFeignConfig.class
+com\star\starter\redis\StarRedisTemplateConfig.class
+com\star\starter\feign\FeignRequestInterceptor.class
+com\star\starter\redis\EnabledStarRedisTemplate.class
+com\star\starter\redis\OpenRedisTemplate.class

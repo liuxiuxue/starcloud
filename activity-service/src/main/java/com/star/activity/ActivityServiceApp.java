@@ -1,6 +1,7 @@
 package com.star.activity;
 
-import feign.Contract;
+import com.star.starter.feign.EnabledStarFeignInterceptor;
+import com.star.starter.redis.EnabledStarRedisTemplate;
 import feign.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +16,8 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
+@EnabledStarRedisTemplate
+@EnabledStarFeignInterceptor
 public class ActivityServiceApp {
     public static void main(String[] args) {
         SpringApplication.run(ActivityServiceApp.class, args);

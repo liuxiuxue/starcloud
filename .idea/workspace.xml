@@ -5,9 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="377fc182-39e3-4bb4-aae2-d1cc3caf2671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common-service/files/boot.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/files/activity-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/files/activity-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/files/starcloud.sql" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/files/starcloud.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-service/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-service/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resoure-service/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/feign/EnabledStarFeignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/feign/OpenStarFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/feign/StarFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/redis/EnabledStarRedisTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/redis/OpenRedisTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/redis/StarRedisTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/ActivityServiceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/ActivityServiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/FeignRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/star-starter/src/main/java/com/star/starter/feign/FeignRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/ActivityServiceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/ActivityServiceApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/FeignRequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/service/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/activity-service/target/classes/com/star/activity/service/ActivityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/AuthServiceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/AuthServiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/src/main/java/com/star/auth/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/AuthServiceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/AuthServiceApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig$JwtAccessTokenEnhancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/JwtConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-service/target/classes/com/star/auth/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/ResourceServiceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/ResourceServiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/src/main/java/com/star/resource/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/ResourceServiceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/ResourceServiceApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resoure-service/target/classes/com/star/resource/config/RedisConfig.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,8 +94,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-service/files" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/star-starter/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.2575" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -73,13 +106,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\starCloud\star-starter\src\main\resources" />
       <recent name="E:\IdeaProjects\starCloud\common-service\files" />
       <recent name="E:\IdeaProjects\starCloud\common-service" />
       <recent name="E:\IdeaProjects\starCloud\common-service\src\main" />
       <recent name="E:\IdeaProjects\starCloud\activity-service\src\main\java\com\star\activity" />
-      <recent name="E:\IdeaProjects\starCloud\activity-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.star.starter.feign" />
       <recent name="" />
     </key>
   </component>
@@ -183,19 +217,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AppTest.test1" />
       <item itemvalue="Spring Boot.ResourceServiceApp1" />
       <item itemvalue="Spring Boot.GateWayServiceApp" />
       <item itemvalue="Spring Boot.ResourceServiceApp" />
       <item itemvalue="Spring Boot.AuthServiceApp" />
-      <item itemvalue="JUnit.AppTest.test1" />
       <item itemvalue="Spring Boot.ActivityServiceApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ActivityServiceApp" />
-        <item itemvalue="Spring Boot.ResourceServiceApp" />
         <item itemvalue="Spring Boot.AuthServiceApp" />
         <item itemvalue="Spring Boot.GateWayServiceApp" />
+        <item itemvalue="Spring Boot.ResourceServiceApp" />
         <item itemvalue="JUnit.AppTest.test1" />
       </list>
     </recent_temporary>
@@ -208,7 +242,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649310598761</updated>
-      <workItem from="1649310600028" duration="85659000" />
+      <workItem from="1649310600028" duration="90310000" />
+      <workItem from="1650010480095" duration="26000" />
+      <workItem from="1650010543024" duration="7815000" />
     </task>
     <servers />
   </component>
@@ -222,11 +258,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageNotReadableException.java</url>
           <line>80</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/activity-service/src/main/java/com/star/activity/service/ActivityServiceImpl.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

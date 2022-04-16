@@ -1,0 +1,16 @@
+com\star\auth\entity\User.class
+com\star\auth\config\phone\PhonePasswordGranter.class
+com\star\auth\config\SecurityConfig.class
+com\star\auth\config\JwtConfig.class
+com\star\auth\entity\Authority.class
+com\star\auth\mapper\UserMapper.class
+com\star\auth\controller\IndexController.class
+com\star\auth\impl\UserServiceImpl.class
+com\star\auth\service\UserService.class
+com\star\auth\config\phone\PhonePasswordToken.class
+com\star\auth\config\JwtConfig$JwtAccessTokenEnhancer.class
+com\star\auth\config\AuthorizationServerConfig.class
+com\star\auth\entity\Sex.class
+com\star\auth\mapper\AuthorityMapper.class
+com\star\auth\AuthServiceApp.class
+com\star\auth\config\phone\PhonePasswordAuthenticationProvider.class

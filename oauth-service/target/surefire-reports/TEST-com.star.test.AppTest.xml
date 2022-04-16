@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.star.test.AppTest" time="1.105" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\IdeaProjects"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\IdeaProjects\starCloud"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="visualvm.id" value="887409018847700"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\IntelliJIDEA2021.3.1\IntelliJ IDEA 2021.3.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\VMware Workstation\bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;G:\php\php-5.5.36-Win32-VC11-x64;G:\php\php-5.5.36-Win32-VC11-x64\ext;D:\Git\cmd;D:\jdk1.8.0_121\bin;D:\jdk1.8.0_121\jre\bin;C:\WINDOWS\System32\OpenSSH\;%NVM_HOME%;%NVM_SYMLINK%;D:\nvm\nvm\v11.9.0;D:\MySQL Server 5.5\bin;D:\MongoDB\bin;D:\Python38;D:\nodejs;D:\nodejs\node_global;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\apache-maven-3.6.3\bin;C:\Program Files\Pandoc\;D:\MySQL Server 5.7\bin;D:\Xshell 7\;D:\Xftp 7\;D:\Python38\Scripts\;D:\Python38\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;D:\Program Files\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\Programs\Fiddler;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Roaming\npm;D:\nodejs\node_modules;D:\nodejs\node_global;D:\nodejs\npm;D:\nodejs\node_global;;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="star"/>
+    <property name="java.class.path" value="D:\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\apache-maven-3.6.3\boot\plexus-classworlds.license;D:\IntelliJIDEA2021.3.1\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.1 -s D:\apache-maven-3.6.3\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="D:\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk1.8.0_121\jre\lib\resources.jar;D:\jdk1.8.0_121\jre\lib\rt.jar;D:\jdk1.8.0_121\jre\lib\sunrsasign.jar;D:\jdk1.8.0_121\jre\lib\jsse.jar;D:\jdk1.8.0_121\jre\lib\jce.jar;D:\jdk1.8.0_121\jre\lib\charsets.jar;D:\jdk1.8.0_121\jre\lib\jfr.jar;D:\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.star.test.AppTest" name="test1" time="1.105"/>
+</testsuite>
